@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brendan Frisby's Portfolio</title>
 </head>
 <body>
     <h1 style="color: white;text-align: center;background:black">Welcome To My Portfolio</h1>
