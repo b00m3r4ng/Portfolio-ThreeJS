@@ -25,7 +25,10 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Brendan Frisby</p>
               <p className="grid-subtext">
-                I began learning Software Engineering and Web Development. I quickly found Offensive Security was my passion.
+                I started with Software Engineering and Web Development, eventually exploring mobile app development.
+                Ultimately, I discovered my greatest passion in Offensive Security. I deeply value all of these
+                interconnected fields, the impact they enable, and the endless opportunities they provide to feed my
+                curiosity and drive growth.{' '}
               </p>
             </div>
           </div>
@@ -36,9 +39,14 @@ const About = () => {
             <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Tech Stack</p>
+              <p className="grid-headtext">Primary Tech Stacks</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools. My favorites being Python, React.js, and Next.js. I also enjoy using Expo and Flutter for Mobile App Development.
+                I primarily work with React and Next.js for web applications, React Native for mobile apps, and Python
+                or Golang for security-related or OSINT tools. MongoDB and SQL are my go-to databases, while Django and
+                Sanity.io are favorites for content management. I seamlessly build and integrate APIs and use frameworks
+                like Framer Motion for advanced animations. This list could go on, but I’d rather keep it short. I’m
+                confident in my ability to work with nearly any tech stack and to quickly learn new ones, as most
+                concepts within each relate.
               </p>
             </div>
           </div>
@@ -74,8 +82,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">My Passions</p>
               <p className="grid-subtext">
-                I love solving problems and bringing ideas to life through code. Programming and Offensive Security are not just my
-                profession, they are my passion. I enjoy exploring new technologies, and forever enhancing my skills.
+              I love the idea of bringing concepts to life through code. Offensive Security has intrigued me long before I began my journey in the field. I don't feel that I chose these interests; rather, they chose me. I am committed to learning new pentesting techniques, mastering the fundamentals, discovering innovative OSINT tools, and constantly challenging myself through daily CTFs, active projects, and adding to my list of certifications. I stay engaged with the latest in security by reading blogs, listening to podcasts, and frequently studying ExploitDB's papers section. I am a deeply curious individual who has happily found a passion that suits me perfectly.
               </p>
             </div>
           </div>
@@ -93,7 +100,9 @@ const About = () => {
               <p className="grid-subtext text-center">Contact me</p>
               <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">Bfrisby1992@gmail.com</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">
+                  Bfrisby1992@gmail.com
+                </p>
               </div>
             </div>
           </div>
